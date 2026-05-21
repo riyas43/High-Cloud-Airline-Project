@@ -4,7 +4,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 HighCloud-Airlines-Project/
@@ -18,13 +18,13 @@ HighCloud-Airlines-Project/
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 To analyze the operational performance of **HighCloud Airlines** by examining key metrics such as load factor, passenger volumes, route efficiency, and fleet utilization — across time, geography, and carrier dimensions — and present insights through interactive dashboards.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -36,7 +36,7 @@ To analyze the operational performance of **HighCloud Airlines** by examining ke
 
 ---
 
-## 🔍 Key Business Questions Answered
+##  Key Business Questions Answered
 
 1. **Date Intelligence** — Derived Year, Month, Quarter, Weekday, Financial Month & Financial Quarter from raw date fields
 2. **Load Factor Analysis** — Calculated `Transported Passengers / Available Seats` on:
@@ -49,7 +49,7 @@ To analyze the operational performance of **HighCloud Airlines** by examining ke
 
 ---
 
-## 📊 Key Metrics
+##  Key Metrics
 
 | Metric | Description |
 |---|---|
@@ -63,7 +63,7 @@ To analyze the operational performance of **HighCloud Airlines** by examining ke
 
 ---
 
-## 🧩 Data Dimensions
+##  Data Dimensions
 
 - **Time** — Date, Year, Month, Quarter, Weekday, Weekend/Weekday, Financial Month/Quarter
 - **Carrier** — Airline ID, Carrier Code, Carrier Name, Carrier Group
@@ -73,7 +73,7 @@ To analyze the operational performance of **HighCloud Airlines** by examining ke
 
 ---
 
-## 💡 Sample SQL Insights
+##  Sample SQL Insights
 
 ```sql
 -- Yearly Load Factor %
@@ -104,13 +104,13 @@ GROUP BY d.Distance_Interval ORDER BY Distance_Group_ID;
 
 ---
 
-## 📌 Data Source
+##  Data Source
 
 Based on the **U.S. Bureau of Transportation Statistics (BTS) T-100 Domestic Segment** dataset, covering scheduled and non-scheduled domestic airline operations.
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **SQL Analysis** — Import `HighCloudAirline_MySQL.sql` into MySQL Workbench and run against your `maindata` table
 2. **Excel** — Open `Airlines_Performance_Analysis.xlsx` to explore pivot tables and the dashboard
@@ -120,4 +120,4 @@ Based on the **U.S. Bureau of Transportation Statistics (BTS) T-100 Domestic Seg
 
 ---
 
-*📅 Project completed as part of a Data Analytics Portfolio | HighCloud Airlines Case Study*
+* Project completed as part of a Data Analytics Portfolio | HighCloud Airlines Case Study*
